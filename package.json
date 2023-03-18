@@ -1,6 +1,6 @@
 {
 	"name": "@michealpearce/typeorm-models",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"packageManager": "yarn@3.3.0",
 	"main": "dist/cjs/index.js",
 	"types": "dist/index.d.ts",
@@ -22,12 +22,15 @@
 		"build": "bash ./scripts/build.sh",
 		"publish": "yarn build && yarn npm publish --access public"
 	},
-	"devDependencies": {
-		"typescript": "^4.9.5"
-	},
 	"dependencies": {
-		"@michealpearce/utils": "^0.0.7",
+		"@michealpearce/utils": "^0.0.7"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.5",
 		"typeorm": "^0.3.12"
+	},
+	"peerDependencies": {
+		"typeorm": "^0.3"
 	},
 	"repository": {
 		"type": "git",
