@@ -170,7 +170,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@michealpearce/typeorm-models@workspace:."
   dependencies:
-    "@michealpearce/utils": ^0.0.7
+    "@michealpearce/utils": ^0.0.9
     "@types/node": ^18.15.3
     typeorm: ^0.3.12
     typescript: ^4.9.5
@@ -180,10 +180,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@michealpearce/utils@npm:^0.0.7":
-  version: 0.0.7
-  resolution: "@michealpearce/utils@npm:0.0.7"
-  checksum: 2b9f53f7e61e350edb10ecb50778516324855213a18c28b1b9f768dfab0c5019f57bcb78713378cdf7998a49b644ce182c8c1c69eb07aec453e8e2afeca12026
+"@michealpearce/utils@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "@michealpearce/utils@npm:0.0.9"
+  checksum: 2c2f3cee36b001e5982e19c8e67c75748a26cff6e4d850f72f50d3f5236ac4373b2b24d602f81ceca144279ddf0355c038f260a3d04a73b5fcc6e724fd640490
   languageName: node
   linkType: hard
 
